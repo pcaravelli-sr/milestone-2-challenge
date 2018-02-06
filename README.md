@@ -31,7 +31,7 @@ To run benchmarks:
 
 > ./run-benchmarks.sh
 
-This currently throws an error when run. You should fill in the code in `milestone2/benchmarks/benchmarks.py` wherever there is a `// TODO` comment, after which this script will print run times for your merge sort and an implementation of insertion sort, with varying length lists passed to each. You should be able to verify that merge sort becomes considerably faster than insertion sort as the size of the list being sorted grows.
+This currently throws an error when run. You should fill in the code in `milestone2/benchmarks/benchmarks.py` wherever there is a `// TODO` comment, after which this script will print run times for your merge sort and an implementation of insertion sort, with varying length lists passed to each. You should be able to verify that merge sort becomes considerably faster than insertion sort as the size of the list being sorted grows. Include a comment on the pull request for this milestone that includes the average run times for insertion sort and merge sort for the 5 different list lengths, and a brief analysis of their performance.
 
 Extra Credit: Optimization
 --------------------------

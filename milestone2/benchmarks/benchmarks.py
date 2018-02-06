@@ -30,7 +30,7 @@ def benchmark(sort_fns, list_length, num_passes):
 
     raise NotImplementedError('Must complete TODOs in `milestone2/benchmarks/benchmarks.py before running!')
 
-    times = {} # TODO: add entries to dictionary with the same keys as `sort_fns`, and all values as `0`
+    times = {}  # TODO: add entries to dictionary with the same keys as `sort_fns`, and all values as `0`
 
     for _ in range(num_passes):
         items = generate_list(list_length)

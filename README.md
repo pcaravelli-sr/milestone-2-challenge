@@ -23,7 +23,7 @@ To run test cases:
 
 > ./run-tests.sh
 
-There is currently one failing test, which should pass once your merge sort function is working. You should add 3 or more additional test cases in `milestone2/tests/test_merge_sort.py` that further verify the correct behavior of your sorting function.
+There are currently 4 unit tests written, 3 of which are currently failing, but should pass once your merge sort function is working. You should add 3 or more additional test cases in `milestone2/tests/test_merge_sort.py` that further verify the correct behavior of your sorting function. One of the existing tests verifies that your merge sort implementation is [stable](https://stackoverflow.com/a/1517824). Depending on how you write your merge sort function, you may or may not run afoul of this test; if not, try to determine what change to your merge sort would cause this test to fail (but not any others). 
 
 Part 3: Benchmarks
 ------------------
@@ -31,7 +31,7 @@ To run benchmarks:
 
 > ./run-benchmarks.sh
 
-This currently throws an error when run. You should fill in the code in `milestone2/benchmarks/benchmarks.py` wherever there is a `// TODO` comment, after which this script will print run times for your merge sort and an implementation of insertion sort, with varying length lists passed to each. You should be able to verify that merge sort becomes considerably faster than insertion sort as the size of the list being sorted grows. Include a comment on the pull request for this milestone that includes the average run times for insertion sort and merge sort for the 5 different list lengths, and a brief analysis of their performance.
+This currently throws an error when run. You should fill in the code in `milestone2/benchmarks/benchmarks.py` wherever there is a `# TODO` comment, after which this script will print run times for your merge sort and an implementation of insertion sort, with varying length lists passed to each. You should be able to verify that merge sort becomes considerably faster than insertion sort as the size of the list being sorted grows. Include a comment on the pull request for this milestone that includes the average run times for insertion sort and merge sort for the 5 different list lengths, and a brief analysis of their performance.
 
 Extra Credit: Optimization
 --------------------------

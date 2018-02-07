@@ -4,6 +4,20 @@ In this coding challenge, you will implement the merge sort algorithm discussed 
 
 In addition to the merge sort implementation, you will write unit test functions and benchmark functions to compare run times against a provided insertion sort function for various list sizes. This should give you some practice with lists and dictionaries, as well as help give a sense of the performance considerations for constant factors vs. asymptotic complexity (e.g. O(*n*<sup>2</sup>) or O(*n* log *n*)).
 
+Copying to your repo
+--------------------
+Since all your code should be submitted as part of your personal apprentice repo, you will need to clone this into your existing repo. The following should work:
+```bash
+> cd <name>-apprentice-curriculum
+> git clone <milestone-2-challenge-url>
+> rm -rf milestone-2-challenge/.git
+```
+The last step wipes out the Git configuration from this repo, since you want your own repo to control that.
+
+After you have completed the above, **please push these changes immediately** to your upstream repo. That way, when you add your own code later and create a pull request, the diff will make it very easy to see what code you wrote vs. what code was already there.
+
+Lastly, if you think there is a better way to do this, feel free to let me know, and I will update the readme!
+
 Part 1: Merge Sort
 ------------------
 In `milestone2/merge_sort.py`, there is a `merge_sort` function defined that currently returns an empty list. This should be updated to return a list containing the sorted members of the input list, using a recursive merge sort algorithm.
